@@ -1,0 +1,35 @@
+.amp {
+  font-family: Baskerville, 'Goudy Old Style', Palatino, 'Book Antiqua', serif;
+  font-style: italic;
+  font-weight: normal;
+}
+.garland {
+  color: #a9b692;
+}
+.bg-garland {
+  background-color: #a9b692;
+}
+.b--garland {
+  border-color: #a9b692;
+}
+.brick {
+  color: #d3b69c;
+}
+.b--brick {
+  border-color: #d3b69c;
+}
+.bourbon {
+  color: #6d412b;
+}
+.bg-bourbon {
+  background-color: #6d412b;
+}
+.wine {
+  color: #97263a;
+}
+.bg-wine {
+  background-color: #97263a;
+}
+.b--wine {
+  border-color: #97263a;
+}
