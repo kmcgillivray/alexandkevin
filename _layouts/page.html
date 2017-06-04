@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<div class="mw6 center pa3 pv4-l mt5-l">
+  <div class="tc">
+    <h2 class="mb0 dark-garland ttu tracked f3 f2-l">{{ page.title }}</h2>
+    <hr class="mw4 bw1 ba b--garland mb4 mt3">
+    {% unless page.live %}<h2 class="mt1 mb2 garland ttu tracked f4 f3-l">Coming soon</h2>{% endunless %}
+  </div>
+
+  <div class="lh-copy f4">
+    {{ content }}
+  </div>
+
+  <div class="tc">
+    <blockquote class="b--washed-red ba bw2 mid-gray pa4 dib br3 f3 lh-copy mv5 i">“{{ page.quote }}”</blockquote>
+  </div>
+</div>
