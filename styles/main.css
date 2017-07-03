@@ -1,6 +1,82 @@
 * {
   box-sizing: border-box;
 }
+@media(min-width: 980px) {
+  .grid {
+    display: grid;
+  }
+}
+.grid {
+  grid-gap: 20px;
+  padding: 20px;
+  grid-template-columns: [col] 1fr [col] 2.5fr [col] .5fr [col] 1.5fr [col] .5fr [col] .5fr [col] .25fr [col] 1fr [col] 2fr;
+  grid-template-rows: [row] 30px [row] 120px repeat(6, [row] auto);
+}
+.a {
+  grid-column: col / span 2;
+  grid-row: row / span 4;
+}
+.b {
+  grid-column: col 3 / span 5;
+  grid-row: row 2 / span 2;
+}
+.c {
+  grid-column: col 5 / span 5;
+  grid-row: row 1 / span 2;
+}
+.d {
+  grid-column: col 3 / span 3;
+  grid-row: row 4 / span 3;
+}
+.e {
+  grid-column: col 7 / span 3;
+  grid-row: row 3 / span 3;
+}
+.f {
+  grid-column: col 2 / span 2;
+  grid-row: row 5 / span 3;
+}
+.g {
+  grid-column: col 5 / span 4;
+  grid-row: row 5 / span 4;
+}
+@supports(display: grid) {
+  .col {
+    display: block;
+    width: auto;
+    padding: 0;
+  }
+  @media(min-width: 980px) {
+    .grid .box {
+      margin-bottom: 0;
+    }
+    .distance-4 {
+      position: relative;
+    }
+    .distance-4:after {
+      content: "";
+      background-color: #D0D0D0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: .6;
+    }
+    .distance-4:before {
+      content: "";
+      background-color: #FFDFDF;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: .2;
+    }
+  }
+
+}
+
 .priori {
   font-family: "priori-sans", "avenir", sans-serif;
 }
@@ -51,12 +127,18 @@
 .bg-ocean {
   background-color: #153d59;
 }
-
+.bg-near-white-pink {
+  background-color: #f6f0f0;
+}
+.bg-gray-green {
+  background-color: #8c8d89;
+}
 body {
   font-size: 1em;
   line-height: 1.35;
 }
 p {
+  font-size: 1.5rem;
   margin-top: 0px;
   margin-bottom: 1rem;
 }
@@ -73,10 +155,10 @@ h6 {
 }
 h1 {
   margin-top: 0px;
-  font-size: 1.7rem;
+  font-size: 1.9rem;
 }
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 a {
   color: #355226;
