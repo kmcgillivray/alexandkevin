@@ -1,2 +1,3 @@
+markdown: kramdown
 collections:
   - city_guide
