@@ -10,7 +10,7 @@ Please join us for a bridal shower honoring Alexandria Baranowski.
 
 ## RSVP
 
-<form class="bg-near-white-pink pa3 pa4-ns" action="https://formspree.io/kevin@sandcastle.co"
+<form class="bg-near-white-pink pa3 pa4-ns" action="https://formspree.io/lori.baranowski@gmail.com"
       method="POST">
     <div class="mb3">
       <label class="db f4 i" for="name">Your name</label>
