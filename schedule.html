@@ -19,7 +19,8 @@ background: bg-near-white-pink
         <td class="pv3 pr3 b gray v-top"><p class="dib bg-white br3 pv1 ph3 f4">{{ event.time }}</p></td>
         <td class="pv3 v-top">
           <h4 class="mv0 f3 gray">{{ event.title }}</h4>
-          <p class="gray i f4">{{ event.location }}</p>
+          <p class="mb0 gray i f4">{{ event.location }}</p>
+          {% if event.address %}<p class="mb0 gray i f4">{{ event.address }}</p>{% endif %}
         </td>
       </tr>
     {% endfor %}

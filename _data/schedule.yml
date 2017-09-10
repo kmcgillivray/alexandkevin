@@ -4,15 +4,19 @@
     - time: "7:30 PM"
       title: "Drinks at Aardvark"
       location: "Aardvark Wine Lounge"
+      address: 304 Pine Street, Green Bay
 - day: Saturday
   date: 11 November 2017
   events:
     - time: "3:30 PM"
       title: "Wedding Ceremony"
       location: "Gather on Broadway"
+      address: 139 North Broadway, Green Bay
     - time: "4:00 PM"
       title: "Aperitivo Hour"
       location: "Gather on Broadway"
+      address: 139 North Broadway, Green Bay
     - time: "5:30 PM"
       title: "Reception Dinner"
       location: "Gather on Broadway"
+      address: 139 North Broadway, Green Bay
