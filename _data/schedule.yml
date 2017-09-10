@@ -1,0 +1,18 @@
+- day: Friday
+  date: 10 November 2017
+  events:
+    - time: "7:30 PM"
+      title: "Drinks at Aardvark"
+      location: "Aardvark Wine Lounge"
+- day: Saturday
+  date: 11 November 2017
+  events:
+    - time: "3:30 PM"
+      title: "Wedding Ceremony"
+      location: "Gather on Broadway"
+    - time: "4:00 PM"
+      title: "Aperitivo Hour"
+      location: "Gather on Broadway"
+    - time: "5:30 PM"
+      title: "Reception Dinner"
+      location: "Gather on Broadway"

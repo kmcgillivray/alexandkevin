@@ -2,16 +2,29 @@
 layout: default
 ---
 
-<div class="mw6 center ph3 pv4-l">
-  <div class="tc">
-    <h2 class="mb0 dark-garland ttu tracked f3 f2-l">{{ page.title }}</h2>
-    <hr class="mw4 bw1 ba b--garland mb4 mt3">
-    {% unless page.live %}<h2 class="mt1 mb2 garland ttu tracked f4 f3-l">Coming soon</h2>{% endunless %}
-  </div>
+<div class="tc pa3">
+  <h2 class="mb0 dark-garland ttu tracked f3 f2-l">{{ page.title }}</h2>
+  <hr class="mw4 bw1 ba b--garland mb4 mt3">
+  {% unless page.live %}<h2 class="mt1 mb2 garland ttu tracked f4 f3-l">Coming soon</h2>{% endunless %}
+</div>
 
-  {{ content }}
+<div class="{{ page.background }} pa3 pt4-l pb5">
 
-  <div class="tc">
-    <blockquote class="b--washed-red ba bw2 mid-gray pa4 dib br3 f3 lh-copy mv5 i">“{{ page.quote }}”</blockquote>
+  <div class="bg-white mw7 center ph3">
+    <div class="mw6 center pv4">
+
+      {{ content }}
+
+      <!-- <div class="tc">
+        <blockquote class="b--washed-red ba bw2 mid-gray pa4 dib br3 f3 lh-copy mv5 i">“{{ page.quote }}”</blockquote>
+      </div> -->
+    </div>
   </div>
 </div>
+
+<section class="bg-gray-green ph3 ph4-l">
+  <div class="bg-white mw7 center pt4 relative top--2">
+    <blockquote class="ph3 mw6 center garland i f3 f2-l tc">“{{ page.quote }}”</blockquote>
+    <img class="db w-100 mw7 center o-60" src="/images/plants.jpg" alt="Plants">
+  </div>
+</section>

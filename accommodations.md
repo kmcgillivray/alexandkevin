@@ -3,6 +3,7 @@ layout: page
 title: Accommodations
 quote: "Everyone needs a sanctuary."
 live: true
+background: bg-near-white-pink
 ---
 
 A block of rooms is reserved at [St. Brendan's Inn](http://saintbrendansinn.com) for both Friday, 10 November and Saturday, 11 November. Call [(920) 884-8484](tel:920-884-8484) to reserve a room at the group rate. Please reserve your room by 6 October 2017.

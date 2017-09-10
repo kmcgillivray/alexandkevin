@@ -2,4 +2,28 @@
 layout: page
 title: Schedule
 quote: "Things of quality have no fear of time."
+live: true
+background: bg-near-white-pink
 ---
+
+{% for date in site.data.schedule %}
+<div class="pb4">
+  <div class="pa3 tc br3 br--top bg-garland">
+    <h2 class="mt0 mb0 white ttu tracked f3 f2-l tc">{{ date.day }}</h2>
+    <h3 class="mv0 white ttu tracked f4 f3-l">{{ date.date }}</h3>
+  </div>
+  <div class="bg-near-white-pink pa3 br3 br--bottom">
+    <table class="f3 center">
+    {% for event in date.events %}
+      <tr>
+        <td class="pv3 pr3 b gray v-top"><p class="dib bg-white garland br3 pv1 ph3 f4">{{ event.time }}</p></td>
+        <td class="pv3 v-top">
+          <h4 class="mv0 f3 gray">{{ event.title }}</h4>
+          <p class="gray i f4">{{ event.location }}</p>
+        </td>
+      </tr>
+    {% endfor %}
+    </table>
+  </div>
+</div>
+{% endfor %}
