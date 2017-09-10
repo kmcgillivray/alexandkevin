@@ -5,13 +5,15 @@ layout: default
 <div class="tc pa3">
   <h2 class="mb0 dark-garland ttu tracked f3 f2-l">{{ page.title }}</h2>
   <hr class="mw4 bw1 ba b--garland mb4 mt3">
-  {% unless page.live %}<h2 class="mt1 mb2 garland ttu tracked f4 f3-l">Coming soon</h2>{% endunless %}
 </div>
 
-<div class="{{ page.background }} pa3 pt4-l pb5">
+<div class="bg-near-white-pink pa3 pt4-l pb5">
 
   <div class="bg-white mw7 center ph3">
     <div class="mw6 center pv4">
+
+      {% unless page.live %}<h2 class="tc mt1 mb2 garland ttu tracked f4 f3-l">Coming soon</h2>{% endunless %}
+
 
       {{ content }}
 
