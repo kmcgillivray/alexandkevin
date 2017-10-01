@@ -21,6 +21,7 @@ background: bg-near-white-pink
           <h4 class="mv0 f3 gray">{{ event.title }}</h4>
           <p class="mb0 gray i f4">{{ event.location }}</p>
           {% if event.address %}<p class="mb0 gray i f4">{{ event.address }}</p>{% endif %}
+          {% if event.description %}<p class="mb0 gray i f4">{{ event.description }}</p>{% endif %}
         </td>
       </tr>
     {% endfor %}
