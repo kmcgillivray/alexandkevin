@@ -5,6 +5,11 @@
   .grid {
     display: grid;
   }
+  .photo-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+  }
 }
 .grid {
   grid-gap: 20px;
