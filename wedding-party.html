@@ -1,5 +1,15 @@
 ---
-layout: page
+layout: page-wide
 title: The Wedding Party
 quote: "I get by with a little help from my friends."
+live: true
 ---
+
+<div class="photo-grid">
+{% for photo in site.data.wedding-party %}
+<figure class="tc">
+  <img class="ba bw3 b--near-white" src="/images/wedding-party/{{ photo.image }}">
+  <figcaption class="dib mt2 bg-white f4 f3-ns i">{{ photo.caption}}</figcaption>
+</figure>
+{% endfor %}
+</div>
