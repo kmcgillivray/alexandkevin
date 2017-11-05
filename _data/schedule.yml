@@ -5,19 +5,16 @@
       title: Welcome Reception
       location: "Aardvark Wine Lounge"
       address: 304 Pine Street, Green Bay
-      description: Cash bar and small plates
+      description: Cash bar and small plates. Free parking is available on Pine Street or in the Pine Street parking ramp.
 - day: Saturday
   date: 11 November 2017
+  location: "Gather on Broadway"
+  address: 139 North Broadway, Green Bay
+  description: Free parking is available on Broadway or in the BMO Harris parking lot across the street from Gather.
   events:
     - time: "3:30 PM"
       title: "Wedding Ceremony"
-      location: "Gather on Broadway"
-      address: 139 North Broadway, Green Bay
     - time: "4:00 PM"
       title: "Aperitivo Hour"
-      location: "Gather on Broadway"
-      address: 139 North Broadway, Green Bay
     - time: "5:30 PM"
       title: "Reception Dinner"
-      location: "Gather on Broadway"
-      address: 139 North Broadway, Green Bay
